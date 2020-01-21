@@ -121,14 +121,13 @@ _start:
     mov QWORD [rbp-0x10], 0x0      ; tab
     mov QWORD [rbp-512], 0x0      ; buffer
 
-main_loop:
     lea rdi, [rbp-512]
     mov rsi, 0x0
     mov rdx, 496
     call memset
-
-    lea rdi, [rbp-512]
+main_loop:
     call disp_prompt
+    lea rdi, [rbp-512]
     call read_standard
 
     call check_exit
