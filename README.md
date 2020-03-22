@@ -1,15 +1,20 @@
-# x64assemblyShell is a mini shell wroten in x86_64 assembly
+# PROJECT
+
+x64assemblyShell is a mini shell wroten in x86_64 assembly.
 
 ## DEPENDENCY:
-    - NASM
-    - LD
+  * nasm
+  * ld
 
 ## BUILD:
-    - make
+
+`make`
 
 ## RUN:
-    - ./asmsh
+
+`./asmsh`
 
 ## EPILOGUE:
-    - This is a very old project which has been used for learn assembly dev. 
-    - The program have a lot of problem & lack.
+
+This is a very old project which has been used for learn assembly. 
+The program have a lot of problems & lacks.
